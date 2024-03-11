@@ -1,0 +1,277 @@
+*{
+   
+   
+    font-family: "Rajdhani";
+    font-weight: 300;
+}
+
+
+.menu_nav{
+    position: absolute;
+    background-color:#e2bf98 ;
+    
+    top: 30%;
+    
+    right: 0px;
+    z-index: 1;
+    display: none;
+
+}
+body{
+    background: #e2bf98;
+    
+}
+
+ul{
+    list-style: none;
+    
+   
+}
+li:hover {
+    background: #ece0d3;
+}
+a{
+    text-decoration: none;
+    color: #864b08;
+    
+    
+}
+li{
+    font-weight: 700;
+    font-size: 3vh;
+    padding-top: 15px;
+
+}
+
+
+
+.titre{
+    color:#905F41 ;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.titre img{
+    width: 90px;
+    height: auto;
+}
+
+.titre h1{
+    font-weight: 700;
+
+}
+
+
+.video video{
+    margin-top: 80px;
+    justify-items: center;
+    width: 100%;
+}
+
+
+footer{
+    background-color: #905F41;
+}
+
+
+.nav_btn{
+    width: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+    
+}
+
+.close_btn{
+    width: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+    
+}
+.partenaires{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-top: 50px;
+    background: #6d3c04;
+    padding-bottom: 50px;
+}
+
+.video_partenaires{
+    height: 400px;
+    padding-left: 50px;
+}
+.partenaires_composants{
+    height: 400px;
+    width: auto;
+}
+
+.button_reglement {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    justify-items: center;
+}
+
+.button_inscription{
+    
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 20px;
+    
+}
+.button_inscription button{
+    
+    width: auto;
+    background-color: #D1CEC7;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 2vh;
+
+}
+
+
+.button_reglement button{
+    width: auto;
+    background-color: #D1CEC7;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 2vh;
+    
+}
+
+.presentation {
+    margin-top:50px;
+    margin-bottom: 30px;
+    background-color: #D1CEC7;
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px ;
+    padding-left: 20px;
+    word-wrap: break-word;
+  
+    
+}
+
+.presentation p {
+    
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 2.2vh;
+}
+
+.presentation b {
+    font-weight: 800;
+}
+
+
+h1{
+    font-size: 10vh;
+    font-weight: 800;
+}
+h2{
+    font-weight: 700;
+    font-size: 5vh;
+
+}
+
+/* CSS */
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #cbd1d8;
+  box-sizing: border-box;
+  color: #b4771b;
+  font-family: "Rajdhani",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+.plan{
+    height: 400px;
+    width: 400px;
+    padding-bottom: 50px;
+    border: #e2bf98 10px solid;
+}
+.button-51:before {
+  background-color: #864b08;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.social a{
+    color: #e2bf98;
+}
+.social p {
+    color: #e2bf98;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.button-51:hover:before {
+  background-color: #d0dbd1;
+}
+
+@media screen and (max-width:700px) {
+    h1{
+        font-size: 2vh;
+    }
+.partenaires {
+    display: block;
+    align-items: center;
+}
+.video_partenaires{
+    padding-left: 0;
+}
+
+.footer {
+    display: block;
+    align-items: center;
+    justify-items: center;
+}
+
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+
+ 
+}

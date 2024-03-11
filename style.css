@@ -93,6 +93,17 @@ footer{
     
     
 }
+
+.button-51 {
+color: #864b08;
+font-weight: 600;
+}
+
+.button-51:hover{
+    background-color: #6d3c04;
+    color: #e2bf98;
+}
+
 .partenaires{
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -184,49 +195,18 @@ h2{
 }
 
 /* CSS */
-.button-51 {
-  background-color: transparent;
-  border: 1px solid #cbd1d8;
-  box-sizing: border-box;
-  color: #b4771b;
-  font-family: "Rajdhani",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  padding: 16px 23px;
-  position: relative;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
 
-.button-51:hover,
-.button-51:active {
-  outline: 0;
-}
 
-.button-51:hover {
-  background-color: transparent;
-  cursor: pointer;
-}
+
+
+
 .plan{
     height: 400px;
     width: 400px;
     padding-bottom: 50px;
     border: #e2bf98 10px solid;
 }
-.button-51:before {
-  background-color: #864b08;
-  content: "";
-  height: calc(100% + 3px);
-  position: absolute;
-  right: -7px;
-  top: -9px;
-  transition: background-color 300ms ease-in;
-  width: 100%;
-  z-index: -1;
-}
+
 
 .footer{
     display: grid;
@@ -244,9 +224,7 @@ h2{
     padding-left: 20px;
 }
 
-.button-51:hover:before {
-  background-color: #d0dbd1;
-}
+
 
 @media screen and (max-width:700px) {
     h1{
@@ -258,20 +236,61 @@ h2{
 }
 .video_partenaires{
     padding-left: 0;
+    width: 350px;
 }
 
 .footer {
     display: block;
     align-items: center;
     justify-items: center;
-}
 
 }
 
-@media (min-width: 768px) {
-  .button-51 {
-    padding: 16px 32px;
-  }
+.plan iframe{
+    width:350px;
+    height: 300px;
+}
 
- 
+.partenaires_composants{
+    height: auto;
+    width: 350px;
+}
+
+.button_reglement {
+    display: block;
+   
+    
+}
+
+.button_inscription{
+    
+        display: block;
+       
+        align-content: space-between;
+        
+    
+}
+.button_inscription button{
+    
+    width: auto;
+    background-color: #D1CEC7;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 2vh;
+
+}
+
+
+.button_reglement button{
+    width: auto;
+    background-color: #D1CEC7;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 2vh;
+    
+
+}
+
+
 }
